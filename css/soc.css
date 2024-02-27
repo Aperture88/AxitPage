@@ -1,0 +1,146 @@
+.social{
+    padding: 15px 0px;
+    background-color: rgba(248, 239, 239, 1);
+}
+
+
+.soc-text{
+    display: inline-block;
+    margin-right:auto;
+}
+
+.social-title{
+    font-size: 20px;
+    font-weight:700;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.textsoc{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: #86878b;
+    font-size: 14px;
+}
+
+.soc-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-i{
+    display: inline-block;
+    width:50px;
+    text-align: center;
+    
+}
+
+.nav-i:last-child{
+    margin-right: 0px;
+}
+
+.fa-vk{
+   font-size: 40px;
+   color:gray;
+   transition: 0.9s;
+}
+.fa-vk:hover{
+    font-size: 50px; 
+    color: blue;
+    transform: rotate(360deg);
+}
+
+.fa-instagram{
+    font-size: 40px;
+    color:gray;
+   transition: 0.9s;
+}
+
+.fa-instagram:hover{
+    font-size: 50px; 
+    color: pink;
+    transform: rotate(360deg);
+}
+
+.fa-telegram{
+    font-size:40px;
+    color:gray;
+   transition: 1s;
+}
+
+.fa-telegram:hover{
+    font-size: 50px; 
+    color: blue;
+    transform: rotate(360deg);
+}
+
+.fa-facebook{
+    font-size: 40px;
+    color:gray;
+   transition: 0.9s;
+}
+
+.fa-facebook:hover{
+    font-size: 50px; 
+    color:rgb(30, 48, 80);
+    transform: rotate(360deg);
+}
+
+.fa-linkedin{
+    font-size: 40px;
+    color:gray;
+   transition: 0.9s;
+}
+
+.fa-linkedin:hover{
+    font-size: 50px; 
+    color: blue;
+    transform: rotate(360deg);
+}
+
+.fa-twitter{
+    font-size: 40px;
+    color:gray;
+   transition: 0.9s;
+}
+
+.fa-twitter:hover{
+    font-size: 50px; 
+    color:rgb(30, 48, 80);
+    transform: rotate(360deg);
+}
+
+.fa-google{
+    font-size: 40px;
+    color:gray;
+   transition: 0.9s;
+}
+
+.fa-google:hover{
+    font-size: 50px; 
+    color:orange;
+    transform: rotate(360deg);
+}
+@media (max-width: 431px) { 
+    .soc-wrap{
+        display: flex;
+        flex-direction: column;
+    } 
+.icons{
+    width: 100%;
+}
+.soc-icons{
+    width: 100%;
+}
+    .fa-vk, .fa-instagram, .fa-telegram, .fa-facebook, .fa-linkedin, .fa-twitter, .fa-google {
+        font-size: 30px;
+    }
+
+    .fa-vk:hover, .fa-instagram:hover, .fa-telegram:hover, .fa-facebook:hover, .fa-linkedin:hover, .fa-twitter:hover, .fa-google:hover {
+        font-size: 35px;
+    }
+}

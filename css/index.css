@@ -1,0 +1,74 @@
+@import url("./fonts.css");
+@import url("./about.css");
+@import url("./pricing.css");
+@import url("header.css");
+@import url("axit.css");
+@import url("cust.css");
+@import  url("soc.css");
+@import  url("footer.css");
+@import url("us.css");
+@import url("template.css");
+@import url("tabs.css");
+*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+   
+    html{
+        font-family: 'Raleway','Open Sans',sans-serif;
+        color:black
+    
+    }
+    .container{
+      max-width: 1170px;
+      margin:auto;
+      padding: 0 20px;}
+
+      ol, ul {
+        list-style: none;
+  }
+  .main-title {
+      color: #212121;
+      font-family:'Raleway';
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 34px;
+      }
+      .main-title::after{
+        content: '';
+        background-color: #E72424;
+        height: 1px;
+        width: 64px;
+        margin: 34px auto 34px;
+        display: block;
+       } 
+      .main-text{
+        font-family:'Open Sans';
+        color: #86878B;
+        text-align: center;
+        margin-bottom: 68px;
+      }
+      .main-word p {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }

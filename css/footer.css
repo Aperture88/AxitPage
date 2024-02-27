@@ -1,0 +1,101 @@
+.footer{
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.foot-icons{
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+
+.li-icons{
+    display: inline;
+    margin-right: 10px;
+}
+
+.li-icons:last-child{
+    margin-right: 0px;
+}
+
+.li-icons i.fa-vk{
+    color: gray;
+    font-size: 20px;
+}
+
+.li-icons i.fa-instagram{
+    color: gray;
+    font-size: 20px;
+}
+
+.li-icons i.fa-telegram{
+    color: gray;
+    font-size: 20px;
+}
+
+.li-icons i.fa-youtube{
+    color: gray;
+    font-size: 20px;
+}
+
+.li-icons i.fa-linkedin{
+    color: gray;
+    font-size: 20px;
+}
+
+.li-icons i.fa-x-twitter{
+    color: gray;
+    font-size: 20px;
+}
+
+.li-icons i.fa-telegram{
+    color: gray;
+    font-size: 20px;
+}
+.ads{
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+.li-icons i.fa-youtube{
+    color: gray;
+    font-size: 20px;
+
+}
+
+.li-icons i.fa-youtube{
+    color: gray;
+    font-size: 20px;}
+    @media  (max-width: 431px) { 
+    .footer {
+        padding: 10px 0px;
+    }
+    .foot-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav-ic {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center; 
+    }
+    .li-icons {
+        margin: 0 10px;
+    }
+    .ads {
+        text-align: center;
+        margin-top: 20px;
+    }
+    }
+    
+    

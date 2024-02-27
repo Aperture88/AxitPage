@@ -1,0 +1,77 @@
+.about {
+    background-color: #fff;
+    padding: 100px 0;
+  }
+.awesome {
+  padding: 80px 0px;
+  background-color: #FFF;
+}
+.about-card {
+    width:350px;
+  }
+  .about-wrapper{
+    display: flex;
+    justify-content:space-between;
+  }
+  .about-cardtitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .about-cardimg{
+    width: 50%;
+    height: 33px;
+    margin: auto;
+    text-align: center;
+    width: 70px; 
+    height: 70px; 
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-bottom: 30px;
+  }
+
+  .about-cardimg i:hover{
+    font-size: 50px;
+  }
+  .Cardmaintext p{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+.fa-ethereum{
+  font-size: 40px;
+  color:grey;
+}
+.fa-ethereum:hover{
+  font-size: 50px; 
+  color:rgb(57, 82, 246);
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.fa-bitcoin{
+  font-size: 40px;
+  color:grey;
+}
+.fa-bitcoin:hover{
+  transition: 1s;
+  font-size: 50px; 
+  color:rgb(226, 251, 1);
+  transform: rotate(360deg);
+}
+@media (max-width: 431px) {
+  .about-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
